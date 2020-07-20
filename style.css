@@ -4,9 +4,8 @@ body {
   }
   
   header {
-    background-color: rgba(188, 101, 141,0.5);
-
-    border-bottom: 1px solid #80405d;
+    background-color: #bc658d;
+    border-bottom: 1px solid #80405d71;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -52,8 +51,6 @@ body {
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
     padding: 30px;
   }
   
@@ -78,6 +75,7 @@ body {
     text-align: center;
     height: 100px;
   }
+
   
   .welcome {
     background-color: #f9d89c;
