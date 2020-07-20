@@ -16,7 +16,8 @@ body {
     padding: 0 20px;
     text-align: center;
   }
-  
+
+  a,
   li {
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
@@ -26,6 +27,7 @@ body {
     width:80px;
   }
   
+  a,
   li:hover {
     color: #DBE9EE;
   }
@@ -92,5 +94,9 @@ body {
     position: relative;
     top: 40px;
     
+  }
+  .image{
+      width:200px;
+      height: 200px;
   }
   
