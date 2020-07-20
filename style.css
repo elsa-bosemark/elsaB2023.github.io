@@ -4,8 +4,8 @@ body {
   }
   
   header {
-    background-color: #bc658d;
-    border-bottom: 1px solid #80405d71;
+    background-color: #bc658e91;
+    border-bottom: 1px solid #80405d;
     position: fixed;
     width: 100%;
     z-index: 10;
