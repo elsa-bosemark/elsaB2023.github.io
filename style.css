@@ -4,8 +4,8 @@ body {
   }
   
   header {
-    background-color: #466995;
-    border-bottom: 1px solid #466995;
+    background-color: #bc658d;
+    border-bottom: 1px solid #80405d;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -18,7 +18,6 @@ body {
   }
   
   li {
-    color: #FFF;
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -32,7 +31,7 @@ body {
   }
   
   h1 {
-    color: #466995;
+    color: #82c4c3;
     font-family: 'Oswald', sans-serif;
     font-size: 32px;
     font-weight: 300;
@@ -40,7 +39,7 @@ body {
   }
   
   h2 {
-    color: #333;
+    color: #f5a7a7;
     font-family: 'Varela Round', sans-serif;
     font-size: 26px;
     font-weight: 100;
@@ -48,7 +47,7 @@ body {
   }
   
   h3 {
-    color: #466995;
+    color: #f5a7a7;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     text-align: center;
@@ -58,7 +57,7 @@ body {
   }
   
   h4 {
-    color: #466995;
+    color: #82c4c3;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     font-weight: 300;
@@ -74,13 +73,13 @@ body {
   }
   
   footer {
-    background-color: #DBE9EE;
+    background-color: #f9d89c;
     text-align: center;
     height: 100px;
   }
   
   .welcome {
-    background-color: #DBE9EE;
+    background-color: #bc658d;
     box-sizing: border-box;
     padding: 40px;
     text-align: center;
@@ -89,21 +88,10 @@ body {
     top: 50px;
   }
   
-  .question {
+  .navTitle {
     text-align: center;
     position: relative;
     top: 40px;
     
   }
   
-  .answer {
-    border: 1px solid #466995;
-    margin: 20px;
-    display: inline-block;
-    
-  }
-  
-  .answer:hover {
-    background: #C0D6DF;
-    color: #FFF;
-  }
