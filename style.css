@@ -24,6 +24,9 @@ body {
     text-transform: uppercase;
     display:inline-block;
     width:80px;
+    color: #333;
+    border-bottom-style: none;
+
   }
 
   a,
@@ -64,7 +67,9 @@ body {
     text-align: center;
     text-transform: uppercase
   }
-  
+  .discription{
+      text-align: left;
+  }
   p {
     color: #333;
     font-family: 'Varela Round', sans-serif;
@@ -84,16 +89,16 @@ body {
     text-align: center;
     width: 100%;
     position: relative;
+    height: 500px;
     
   }
   
   .navTitle {
     text-align: center;
     position: relative;
-    top: 40px;
     
   }
   .image{
-       border-radius: 40%;
+       border-radius: 50%;
   }
   
