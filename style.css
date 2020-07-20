@@ -4,8 +4,7 @@ body {
   }
   
   header {
-    background-color: #bc658e91;
-    border-bottom: 1px solid #80405d;
+    background-color: #bc658ee1;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -26,7 +25,7 @@ body {
     display:inline-block;
     width:80px;
   }
-  
+
   a,
   li:hover {
     color: #DBE9EE;
@@ -96,7 +95,6 @@ body {
     
   }
   .image{
-      width:200px;
-      height: 200px;
+       border-radius: 50%;
   }
   
