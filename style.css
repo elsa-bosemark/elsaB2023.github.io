@@ -4,7 +4,8 @@ body {
   }
   
   header {
-    background-color: #bc658d;
+    background-color: rgba(188, 101, 141,0.5);
+
     border-bottom: 1px solid #80405d;
     position: fixed;
     width: 100%;
@@ -79,7 +80,7 @@ body {
   }
   
   .welcome {
-    background-color: #bc658d;
+    background-color: #f9d89c;
     box-sizing: border-box;
     padding: 40px;
     text-align: center;
