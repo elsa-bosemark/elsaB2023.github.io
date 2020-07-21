@@ -20,6 +20,7 @@ li {
     padding: 10px;
 }
 
+.cap,
 a,
 li {
     font-family: 'Oswald', sans-serif;
@@ -97,10 +98,11 @@ img:hover {
     height: 300px;
     padding: 40px;
     text-align: center;
-    width: 100%;
+    justify-content: stretch;
     position: relative;
     align-items: center;
     align-content: center;
+    text-align: center;
 }
 
 .navTitle {
