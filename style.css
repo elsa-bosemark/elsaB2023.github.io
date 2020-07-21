@@ -100,11 +100,15 @@ img:hover {
     text-align: center;
     width: 100%;
     position: relative;
+    align-items: center;
+    align-content: center;
 }
 
 .navTitle {
     text-align: center;
     position: relative;
+    align-items: center;
+    align-content: space-around;
 }
 
 .image {
