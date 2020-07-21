@@ -98,15 +98,14 @@ img:hover {
     height: 300px;
     padding: 40px;
     text-align: center;
-    justify-content: stretch;
+    width: 100%;
     position: relative;
     align-items: center;
     align-content: center;
-    text-align: center;
+    text-align: center
 }
 
 .navTitle {
-    justify-content: space-around;
     text-align: center;
     position: relative;
     align-items: center;
