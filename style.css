@@ -1,6 +1,7 @@
 body {
     background-color: #FFF;
     margin: 0 auto;
+    width: 100%;
 }
 
 header {
@@ -20,15 +21,22 @@ li {
     padding: 10px;
 }
 
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #333;
+}
+
 .cap,
 a,
 li {
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     text-transform: uppercase;
     display: inline-block;
-    width: 80px;
     color: #333;
 }
 
@@ -76,6 +84,9 @@ p {
     color: #333;
     font-family: 'Varela Round', sans-serif;
     font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 footer {
@@ -88,27 +99,21 @@ img:hover {
     color: rgba(51, 51, 51, 0.808);
 }
 
-.discription {
-    text-align: left;
-    width: 50%;
-}
-
 .welcome {
     background-color: #f9d89c;
-    box-sizing: border-box;
-    height: 300px;
+    height: 150px;
     padding: 40px;
     text-align: center;
     width: 100%;
-    position: relative;
     align-items: center;
-    align-content: center;
-    text-align: center
+}
+
+.welcomeTitle {
+    padding-top: 100px;
 }
 
 .navTitle {
     text-align: center;
-    position: relative;
     align-items: center;
     align-content: space-around;
 }
@@ -116,6 +121,8 @@ img:hover {
 .image {
     border-radius: 50%;
     align-self: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .contacts {
@@ -123,8 +130,13 @@ img:hover {
 }
 
 table {
-    align-items: stretch;
-    align-content: space-around;
     width: 100%;
-    align-items: center;
+    align-content: center;
 }
+
+
+/* table,
+td {
+    border: 1px solid black;
+}
+*/
