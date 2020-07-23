@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #FFF;
     margin: 0 auto;
@@ -5,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #bc658ee1;
+    background-color: rgba(165, 216, 216, 0.856);
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -42,10 +46,12 @@ li {
 
 a:hover {
     color: #DBE9EE;
+    font-size: 25px;
 }
 
-h1 {
-    color: #82c4c3;
+h1,
+h4 {
+    color: #23A4A4;
     font-family: 'Oswald', sans-serif;
     font-size: 32px;
     font-weight: 300;
@@ -53,7 +59,7 @@ h1 {
 }
 
 h2 {
-    color: #f5a7a7;
+    color: #6ABABA;
     font-family: 'Varela Round', sans-serif;
     font-size: 26px;
     font-weight: 100;
@@ -62,22 +68,12 @@ h2 {
 
 .pink,
 h3 {
-    color: #f5a7a7;
+    color: #23A4A4;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     vertical-align: middle;
     text-align: center;
     padding: 30px;
-}
-
-h4 {
-    color: #82c4c3;
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    text-align: center;
-    text-transform: uppercase
 }
 
 p {
@@ -89,23 +85,8 @@ p {
     margin-right: 10px;
 }
 
-footer {
-    background-color: #f9d89c;
-    text-align: center;
-    height: 100px;
-}
-
 img:hover {
     color: rgba(51, 51, 51, 0.808);
-}
-
-.welcome {
-    background-color: #f9d89c;
-    height: 150px;
-    padding: 40px;
-    text-align: center;
-    width: 100%;
-    align-items: center;
 }
 
 .welcomeTitle {
@@ -134,9 +115,50 @@ table {
     align-content: center;
 }
 
-
-/* table,
-td {
-    border: 1px solid black;
+.logo {
+    font-size: 48px;
+    color: #23A4A4;
 }
-*/
+
+.logo:hover {
+    color: #ffffff;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas: "welcome welcome welcome" "aboutMe aboutMe aboutMe" "skills skills skills" "projects projects projects" "interests interests interests" "footer footer footer";
+}
+
+.welcome {
+    grid-area: welcome;
+    background-color: #f9d89c;
+    text-align: center;
+    align-items: center;
+}
+
+.aboutMe {
+    grid-area: aboutMe;
+}
+
+.skills {
+    grid-area: skills;
+}
+
+.projects {
+    grid-area: projects;
+}
+
+.interests {
+    grid-area: interests;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #f9d89c;
+    text-align: center;
+    justify-self: stretch;
+}
