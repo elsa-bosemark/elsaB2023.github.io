@@ -138,10 +138,18 @@ table {
     background-color: #f9d89c;
     text-align: center;
     align-items: center;
+    width: 100%;
 }
 
 .aboutMe {
     grid-area: aboutMe;
+}
+
+.gridAboutMe {
+    grid-template-columns: 1fr 1fr;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
 }
 
 .skills {
@@ -161,4 +169,10 @@ footer {
     background-color: #f9d89c;
     text-align: center;
     justify-self: stretch;
+    width: 100%;
+}
+
+.container,
+.gridAboutMe {
+    border: 1px solid black;
 }
