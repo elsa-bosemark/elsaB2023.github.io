@@ -128,9 +128,9 @@ table {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 3fr 3fr;
     grid-template-rows: auto;
     grid-template-areas: "welcome welcome welcome" "aboutMe aboutMe aboutMe" "skills skills skills" "projects projects projects" "interests interests interests" "footer footer footer";
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr))
 }
 
 .welcome {
@@ -143,13 +143,8 @@ table {
 
 .aboutMe {
     grid-area: aboutMe;
-}
-
-.gridAboutMe {
     grid-template-columns: 1fr 1fr;
     display: inline-grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
 }
 
 .skills {
